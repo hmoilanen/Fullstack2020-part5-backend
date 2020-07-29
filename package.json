@@ -6,18 +6,19 @@
   "scripts": {
     "start": "cross-env NODE_ENV=production node index.js",
     "dev": "cross-env NODE_ENV=development nodemon index.js",
-    "test": "cross-env NODE_ENV=test jest --verbose  --runInBand"
+		"test": "cross-env NODE_ENV=test jest --verbose  --runInBand",
+		"start:test": "cross-env NODE_ENV=test node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hmoilanen/Fullstack2020-part4.git"
+    "url": "git+https://github.com/hmoilanen/Fullstack2020-part5-backend.git"
   },
   "author": "Juuso Heino",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hmoilanen/Fullstack2020-part4/issues"
+    "url": "https://github.com/hmoilanen/Fullstack2020-part5-backend/issues"
   },
-  "homepage": "https://github.com/hmoilanen/Fullstack2020-part4#readme",
+  "homepage": "https://github.com/hmoilanen/Fullstack2020-part5-backend#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "cors": "^2.8.5",
